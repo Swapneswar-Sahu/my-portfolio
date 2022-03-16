@@ -23,3 +23,22 @@ body{
     background-size: cover;
 
 }
+.card:hover{
+    background-color: yellow;
+}
+.card:hover{
+    border: 2px solid black;
+    transition: transform .5s ease;
+}
+.card:hover{
+    overflow: hidden;
+    transition: transform .5s ease;
+    transform: scale(1.1);
+}
+.card-body:hover{
+    display: block;
+  color: black;
+}
+.card-title:hover{
+    text-decoration: underline;
+}
